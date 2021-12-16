@@ -183,7 +183,6 @@ print("------------------------------------------------------")
 
 ##################################################################
 # Utilisation DBSCAN sur les données scaled
-from sklearn.cluster import DBSCAN
 from sklearn.neighbors import NearestNeighbors
 
 def Get_distanceMean(points,minPts,previous_distanceMean):
